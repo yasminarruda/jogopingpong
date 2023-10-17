@@ -163,7 +163,7 @@ function game(){//Se o jogo estiver rolando.Ela vai receber as funções de cont
 }
 function iniciaJogo(){//Função para iniciar o jogo.
     if(!jogo){//Se o jogo estiver parado.
-        velBola=8
+        velBola=15
         velCpu=8
         velJogador=8
         cancelAnimationFrame(frames)//Cancela a animação, para não ter uma chamada em cima da outra.
